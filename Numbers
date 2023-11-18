@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Numbers {
+    static int num[];
+    static int k;
+
+    static void read(){
+       int n;
+       Scanner sc =new Scanner(System.in);
+         System.out.println("Enter the number of values to store");
+          n = sc.nextInt();
+          num = new int[n];
+          System.out.println("Enter the" + n + "values");
+          Scanner sc1 = new Scanner(System.in);
+
+      for(int i=0;i<n;i++){
+        int inputValue = sc1.nextInt();
+
+       
+        
+     
+       }
+
+
+
+        sc.close();
+    }
+    public static void main(String args[]){
+        read();
+    }
+}
